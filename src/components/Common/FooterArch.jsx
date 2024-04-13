@@ -75,7 +75,7 @@ function FooterArch() {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/img/logo-light.png" alt="" />
+                <img src="/img/LumarSoftV2.png" alt="" />
               </div>
               <div className="social">
                 <a href="#0">

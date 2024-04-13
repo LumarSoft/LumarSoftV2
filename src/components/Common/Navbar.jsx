@@ -123,9 +123,6 @@ const Navbar = ({ lr, theme }) => {
                 <a className="dropdown-item" href={`/works2/works2-dark`}>
                   Portfolio Filtering
                 </a>
-                <a className="dropdown-item" href={`/works3/works3-dark`}>
-                  Portfolio Gallery
-                </a>
               </div>
             </li>
             <li className="nav-item dropdown" onClick={handleDropdown}>

@@ -85,7 +85,7 @@ function Footer({ hideBGCOLOR }) {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/img/logo-light.png" alt="logo" />
+                <img src="/img/LumarSoftV2.png" alt="logo" />
               </div>
               <div className="social">
                 <a href="#0">

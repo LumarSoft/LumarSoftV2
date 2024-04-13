@@ -1,5 +1,5 @@
-'use client';
-import React, { useEffect } from 'react';
+"use client";
+import React, { useEffect } from "react";
 //= Scripts
 import initFullNavbarMenu from "@/common/initFullNavbarMenu";
 
@@ -10,16 +10,18 @@ function NavbarFullMenu({ theme }) {
 
   return (
     <>
-      <div id="navi" className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`}>
+      <div
+        id="navi"
+        className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}
+      >
         <div className="container-fluid">
           <div className="logo">
             <a href="#0">
-              {
-                theme === 'light' ?
-                  <img src="/img/logo-dark.png" alt="logo" />
-                  :
-                  <img src="/img/logo-light.png" alt="logo" />
-              }
+              {theme === "light" ? (
+                <img src="/img/logo-dark.png" alt="logo" />
+              ) : (
+                <img src="/img/LumarSoftV2.png" alt="logo" />
+              )}
             </a>
           </div>
           <div className="menu-icon">
@@ -141,21 +143,30 @@ function NavbarFullMenu({ theme }) {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <a className="sub-link" href="/showcase/showcase-dark">
+                            <a
+                              className="sub-link"
+                              href="/showcase/showcase-dark"
+                            >
                               <span className="nm">01.</span>ShowCase Parallax
                             </a>
                           </div>
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <a className="sub-link" href="/showcase3/showcase3-dark">
+                            <a
+                              className="sub-link"
+                              href="/showcase3/showcase3-dark"
+                            >
                               <span className="nm">02.</span>ShowCase Carousel
                             </a>
                           </div>
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <a className="sub-link" href="/showcase2/showcase2-dark">
+                            <a
+                              className="sub-link"
+                              href="/showcase2/showcase2-dark"
+                            >
                               <span className="nm">03.</span>ShowCase Circle
                             </a>
                           </div>
@@ -171,13 +182,6 @@ function NavbarFullMenu({ theme }) {
                           <div className="o-hidden">
                             <a className="sub-link" href="/works2/works2-dark">
                               <span className="nm">05.</span>Portfolio Filtering
-                            </a>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <a className="sub-link" href="/works3/works3-dark">
-                              <span className="nm">06.</span>Portfolio Gallery
                             </a>
                           </div>
                         </li>
@@ -209,21 +213,30 @@ function NavbarFullMenu({ theme }) {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <a className="sub-link" href="/blog-list/blog-list-dark">
+                            <a
+                              className="sub-link"
+                              href="/blog-list/blog-list-dark"
+                            >
                               <span className="nm">02.</span>Blog List
                             </a>
                           </div>
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <a className="sub-link" href="/blog-grid/blog-grid-dark">
+                            <a
+                              className="sub-link"
+                              href="/blog-grid/blog-grid-dark"
+                            >
                               <span className="nm">03.</span>Blog Grid
                             </a>
                           </div>
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <a className="sub-link" href="/blog-details/blog-details-dark">
+                            <a
+                              className="sub-link"
+                              href="/blog-details/blog-details-dark"
+                            >
                               <span className="nm">04.</span>Blog Details
                             </a>
                           </div>
@@ -249,7 +262,9 @@ function NavbarFullMenu({ theme }) {
                 </div>
                 <div className="item">
                   <h6>Address :</h6>
-                  <p>541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io</p>
+                  <p>
+                    541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+                  </p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
@@ -263,7 +278,7 @@ function NavbarFullMenu({ theme }) {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default NavbarFullMenu
+export default NavbarFullMenu;
