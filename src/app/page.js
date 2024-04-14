@@ -28,12 +28,16 @@ export const metadata = {
   },
 };
 
-export default function LandingPreview() {
+export default async function LandingPreview() {
+  const dictionary = await import(`@/dictionary/es.json`).then(
+    (res) => res.default
+  );
+
   return (
     <>
       <Loading />
       <Navbar />
-      <Header />
+      <Header language={dictionary.Hero} />
       <AboutUs />
       <Works />
       <Services />

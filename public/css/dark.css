@@ -1904,7 +1904,7 @@ span:hover {
 }
 
 .navbar .logo {
-  width: 70px;
+  width: 80px;
 }
 
 .nav-scroll {
@@ -2762,6 +2762,11 @@ span:hover {
   margin-top: 5px;
 }
 
+.container-hero{
+  max-width: 1500px;
+}
+
+
 .particles {
   min-height: 100vh;
   position: relative;
@@ -2770,7 +2775,7 @@ span:hover {
 }
 
 .particles .cont h1 {
-  font-size: 90px;
+  font-size: 120px;
   font-weight: 800;
 }
 

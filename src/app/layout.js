@@ -1,13 +1,13 @@
+import Script from "next/script";
+import generateStylesheetObject from "@/common/generateStylesheetsObject";
 //= Global Styles
-import "@/styles/main.scss"
+import "@/styles/main.scss";
 import "@/styles/preloader.css";
 import "@/styles/modal-video.css";
 import "swiper/css/bundle";
 import "react-circular-progressbar/dist/styles.css";
 import Cursor from "@/components/Common/Cursor";
 import ProgressScroll from "@/components/Common/ProgressScroll";
-import Script from "next/script";
-import generateStylesheetObject from "@/common/generateStylesheetsObject";
 
 export const metadata = {
   title: "Vie",
@@ -26,6 +26,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <body>

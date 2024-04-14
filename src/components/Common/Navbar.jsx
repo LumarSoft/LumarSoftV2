@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 //= Scripts
-import { handleDropdown, handleMobileDropdown } from "@/common/navbar";
+import {  handleMobileDropdown } from "@/common/navbar";
 //= Static Data
 import appData from "@/data/app.json";
 import { useRouterHelper } from "@/shared/hooks/useRouterHelper";
@@ -30,7 +30,7 @@ const Navbar = ({ lr }) => {
     <nav ref={navbar} className={`navbar navbar-expand-lg change`}>
       <div className="container">
         <Link className="logo" href="/">
-          <img ref={lr} src={appData.darkLogo} alt="logo" />
+          <img ref={lr} src={appData.darkLogo} alt="logo"/>
         </Link>
 
         <button
