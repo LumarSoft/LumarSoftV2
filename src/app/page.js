@@ -38,10 +38,10 @@ export default async function LandingPreview() {
       <Loading />
       <Navbar />
       <Header language={dictionary.Hero} />
-      <AboutUs language={dictionary.AboutUs}/>
+      <AboutUs language={dictionary.AboutUs} />
       <Works />
-      <Services language={dictionary.Services}/>
-      <Blogs />
+      <Services language={dictionary.Services} />
+      <Blogs language={dictionary.Blog} />
       <CallToAction />
       <Footer />
     </>

@@ -88,6 +88,30 @@
       "title": "Diseño grafico",
       "description": "Creamos diseños gráficos atractivos y profesionales que reflejan la identidad de tu marca y cautivan a tu audiencia."
     }
-    
+  },
+  "Blog": {
+    "title": "Blog",
+    "description": "Descubre las últimas noticias, tendencias y consejos sobre desarrollo de software y tecnología.",
+    "button": "Ver más",
+    "postCard": [
+      {
+        "title": "5 Tendencias de Desarrollo de Software para el 2022",
+        "description": "Descubre las últimas tendencias en desarrollo de software que están transformando la industria en el 2022.",
+        "date": "15 de Febrero, 2022",
+        "button": "Leer mas"
+      },
+      {
+        "title": "Cómo Elegir la Mejor Plataforma de E-Commerce para tu Negocio",
+        "description": "Descubre cómo elegir la mejor plataforma de e-commerce para tu negocio y aumentar tus ventas en línea.",
+        "date": "10 de Febrero, 2022",
+        "button": "Leer mas"
+      },
+      {
+        "title": "Por Qué el Diseño Web Responsivo es Importante para tu Negocio",
+        "description": "Descubre por qué el diseño web responsivo es crucial para el éxito de tu negocio en línea y cómo puede beneficiarte.",
+        "date": "5 de Febrero, 2022",
+        "button": "Leer mas"
+      }
+    ]
   }
 }

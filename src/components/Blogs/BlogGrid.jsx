@@ -3,7 +3,7 @@ import Link from "next/link";
 //= Static Data
 import blogs from "@/data/blogs3.json";
 
-const BlogGrid = () => {
+const BlogGrid = ({language}) => {
   return (
     <section className="blog-pg blog section-padding pt-0">
       <div className="container">
