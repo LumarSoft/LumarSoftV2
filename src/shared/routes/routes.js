@@ -4,6 +4,10 @@ export const ROUTES = [
     path: "/",
   },
   {
+    name: "Services",
+    path: "/services",
+  },
+  {
     name: "About",
     path: "/about",
   },

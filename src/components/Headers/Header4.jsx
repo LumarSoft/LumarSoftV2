@@ -9,16 +9,21 @@ const Header4 = ({ language }) => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="cont text-center">
-              <h1>{language.title1}</h1>
-              <h1 className="color-font">
-                <TypewriterComponent
-                  options={{
-                    strings: language.title2,
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </h1>
+              <div>
+                <h1>{language.title1}</h1>
+                <h1 className="color-font">
+                  <TypewriterComponent
+                    options={{
+                      strings: language.title2,
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </h1>
+              </div>
+              <button className="btn-hero-contact">
+                <span className="animation-pulse">{language.button}</span>
+              </button>
             </div>
           </div>
         </div>

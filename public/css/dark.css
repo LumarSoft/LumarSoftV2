@@ -2762,16 +2762,22 @@ span:hover {
   margin-top: 5px;
 }
 
-.container-hero{
+.container-hero {
   max-width: 1500px;
 }
-
 
 .particles {
   min-height: 100vh;
   position: relative;
   z-index: 2;
   overflow: hidden;
+}
+
+.particles .cont{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
 
 .particles .cont h1 {
@@ -2781,6 +2787,36 @@ span:hover {
 
 .particles .animation-wrapper {
   opacity: 0.5;
+}
+
+.btn-hero-contact {
+  width: fit-content;
+  padding: 0.75rem 1.2rem;
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#12c2e9),
+    color-stop(#c471ed),
+    to(#f64f59)
+  );
+  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  padding: 7px 12px;
+  border-radius: 10px;
+  border: none;
+}
+
+.animation-pulse {
+  animation: pulser 2s infinite;
+  border-radius: 3px;
 }
 
 .freelancre {

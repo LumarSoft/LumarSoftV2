@@ -29,7 +29,7 @@ export const metadata = {
 };
 
 export default async function LandingPreview() {
-  const dictionary = await import(`@/dictionary/es.json`).then(
+  const dictionary = await import(`@/dictionary/home/es.json`).then(
     (res) => res.default
   );
 
@@ -38,12 +38,9 @@ export default async function LandingPreview() {
       <Loading />
       <Navbar />
       <Header language={dictionary.Hero} />
-      <AboutUs />
+      <AboutUs language={dictionary.AboutUs}/>
       <Works />
-      <Services />
-      <MinimalArea2 />
-      <FullTestimonials classText="pb-0" />
-      <Team />
+      <Services language={dictionary.Services}/>
       <Blogs />
       <CallToAction />
       <Footer />
