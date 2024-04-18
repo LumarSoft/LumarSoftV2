@@ -113,5 +113,20 @@
         "button": "Leer mas"
       }
     ]
+  },
+  "CallToAction": {
+    "stitle": "Hablemos",
+    "title": "Sobre tu",
+    "subtitle": "Proyecto",
+    "button": "Contactános"
+  },
+  
+  "Works3":{
+    "title": "Portfolio",
+    "subtitle": "Nuestros últimos proyectos",
+    "imgTitle": "Ecommerce",
+    "imgSubtitle": "Ecommerce Fornax",
+    "imgTitle2": "  Chatbot",
+    "imgSubtitle2": "Chatbot John Pellegrini"
   }
 }

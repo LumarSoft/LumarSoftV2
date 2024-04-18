@@ -17,7 +17,7 @@ const AboutUs3 = ({ language }) => {
     }, 500);
   }, []);
 
-  const aboutRoute = useRouterHelper().getOneRoute("About");
+  const aboutRoute = useRouterHelper().getOneRoute("Nosotros");
   return (
     <section className="agency section-padding position-re">
       <div className="container">

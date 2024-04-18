@@ -15,7 +15,7 @@ import CallToAction from "@/components/Others/CallToAction";
 import Footer from "@/components/Common/Footer";
 import Blogs from "@/components/Blogs/BlogGrid";
 export const metadata = {
-  title: "Vie - Preview",
+  title: "LumarSoft",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -29,7 +29,7 @@ export const metadata = {
 };
 
 export default async function LandingPreview() {
-  const dictionary = await import(`@/dictionary/home/es.json`).then(
+  const dictionary = await import(`@/dictionary/home/home_es.json`).then(
     (res) => res.default
   );
 
@@ -39,10 +39,10 @@ export default async function LandingPreview() {
       <Navbar />
       <Header language={dictionary.Hero} />
       <AboutUs language={dictionary.AboutUs} />
-      <Works />
+      <Works language={dictionary.Works3} />
       <Services language={dictionary.Services} />
       <Blogs language={dictionary.Blog} />
-      <CallToAction />
+      <CallToAction language={dictionary.CallToAction} />
       <Footer />
     </>
   );

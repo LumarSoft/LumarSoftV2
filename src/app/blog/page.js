@@ -7,7 +7,7 @@ import BlogGrid from '@/components/Blogs/BlogGrid';
 import Footer from '@/components/Common/Footer';
 
 export const metadata = {
-  title: 'Vie - Blog Grid Dark'
+  title: 'LumarSoft'
 }
 
 export default function BlogGridPage() {

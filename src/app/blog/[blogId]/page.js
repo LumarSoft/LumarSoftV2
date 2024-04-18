@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 //= Page components
-import Loading from '@/components/Common/Loader';
-import Navbar from '@/components/Common/Navbar';
-import PageHeader from '@/components/Headers/PageHeader';
-import BlogDetails from '@/components/Blogs/BlogDetails';
-import Footer from '@/components/Common/Footer';
+import Loading from "@/components/Common/Loader";
+import Navbar from "@/components/Common/Navbar";
+import PageHeader from "@/components/Headers/PageHeader";
+import BlogDetails from "@/components/Blogs/BlogDetails";
+import Footer from "@/components/Common/Footer";
 
 export const metadata = {
-  title: 'Vie - Blog Details Dark'
-}
+  title: "LumarSoft",
+};
 
 export default function BlogDetailsPage() {
   return (
@@ -21,9 +21,12 @@ export default function BlogDetailsPage() {
         </div>
       </div>
       <Navbar />
-      <PageHeader title="Blog Details." paragraph="All the most current news and events of our creative team." />
+      <PageHeader
+        title="Blog Details."
+        paragraph="All the most current news and events of our creative team."
+      />
       <BlogDetails />
       <Footer />
     </>
-  )
+  );
 }

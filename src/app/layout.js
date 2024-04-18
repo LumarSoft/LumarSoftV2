@@ -10,7 +10,7 @@ import Cursor from "@/components/Common/Cursor";
 import ProgressScroll from "@/components/Common/ProgressScroll";
 
 export const metadata = {
-  title: "Vie",
+  title: "LumarSoft",
   description: "Vie - Multi-Purpose React.js Next.js Template",
   keywords: ["HTML5", "Template", "Vie", "Multi-Purpose", "themeforest"],
   icons: {
@@ -26,7 +26,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  
   return (
     <html lang="en">
       <body>

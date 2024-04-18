@@ -21,8 +21,8 @@ const Header4 = ({ language }) => {
                   />
                 </h1>
               </div>
-              <button className="btn-hero-contact">
-                <span className="animation-pulse">{language.button}</span>
+              <button className="btn-hero-contact animation-pulse">
+                <span className="">{language.button}</span>
               </button>
             </div>
           </div>

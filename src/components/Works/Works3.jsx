@@ -40,16 +40,16 @@ const swiperOptions = {
   }
 }
 
-function Works3() {
+function Works3({language}) {
   return (
     <section className="work-carousel2 metro section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head">
-              <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
+              <h6 className="wow fadeIn" data-wow-delay=".5s">{language.title}</h6>
               <h3 className="wow color-font">
-                Our Recent Web Design &amp; <br /> Some Past Projects.
+                {language.subtitle}
               </h3>
             </div>
           </div>
@@ -71,12 +71,12 @@ function Works3() {
                     <div className="cont">
                       <h6>
                         <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                          {language.imgTitle}
                         </Link>
                       </h6>
                       <h4>
                         <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                            {language.imgSubtitle}
                         </Link>
                       </h4>
                     </div>
@@ -93,12 +93,12 @@ function Works3() {
                     <div className="cont">
                       <h6>
                         <Link href="/project-details2/project-details2-dark">
-                          art &amp; illustration
+                          {language.imgTitle2}
                         </Link>
                       </h6>
                       <h4>
                         <Link href="/project-details2/project-details2-dark">
-                          Inspiring new space
+                          {language.imgSubtitle2}
                         </Link>
                       </h4>
                     </div>
