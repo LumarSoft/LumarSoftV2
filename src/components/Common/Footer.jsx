@@ -8,7 +8,7 @@ function Footer({ hideBGCOLOR, language }) {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>{language.ContactUs}</h5>
+                <h5>{language.GetTouch}</h5>
               </div>
               <ul>
                 <li>

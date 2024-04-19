@@ -26,7 +26,7 @@ export default function BlogDetailsPage() {
         paragraph="All the most current news and events of our creative team."
       />
       <BlogDetails />
-      <Footer />
+      <Footer language={dictionary.Footer} />
     </>
   );
 }

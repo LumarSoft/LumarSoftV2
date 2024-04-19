@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import TypewriterComponent from "typewriter-effect";
-
 const Header4 = ({ language }) => {
   return (
     <header className="particles circle-bg valign">
@@ -22,6 +21,7 @@ const Header4 = ({ language }) => {
                 </h1>
               </div>
               <button className="btn-hero-contact animation-pulse">
+                <a href=""></a>
                 <span className="">{language.button}</span>
               </button>
             </div>

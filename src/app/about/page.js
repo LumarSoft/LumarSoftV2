@@ -18,7 +18,7 @@ export const metadata = {
 };
 
 async function AboutDark() {
-  const dictionary = await import(`@/dictionary/home/home_es.json`).then(
+  const dictionary = await import(`@/dictionary/home/about_es.json`).then(
     (res) => res.default
   );
   return (
@@ -26,18 +26,18 @@ async function AboutDark() {
       <Loading />
       <Navbar />
       <PagesHeader imageLink="/img/slid/about.jpg">
-        Our dedicated team of creatives is bursting with talent, experience and
-        passion for what we do.
+        Donde la creatividad se encuentra con la tecnología, nacen las
+        posibilidades infinitas.
       </PagesHeader>
-      <AboutIntro />
+      <AboutIntro language={dictionary.AboutIntro} />
       <Services style="4item" />
       <TestimonialsWithVideo />
       <SkillsCircle from="aboutPage" />
       <Team />
       <MinimalArea />
       <Clients theme="dark" />
-      <CallToAction language={dictionary.CallToAction}/>
-      <Footer />
+      <CallToAction language={dictionary.CallToAction} />
+      <Footer language={dictionary.Footer} />
     </>
   );
 }
