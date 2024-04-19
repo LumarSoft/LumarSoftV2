@@ -39,11 +39,12 @@ export default async function LandingPreview() {
       <Navbar />
       <Header language={dictionary.Hero} />
       <AboutUs language={dictionary.AboutUs} />
-      <Works language={dictionary.Works3} />
+      <Works language={dictionary.Works} />
       <Services language={dictionary.Services} />
-      <Blogs language={dictionary.Blog} />
+      {/* No pondría el blog en la home. Directamente si quieren verlo lo pueden hacer desde la navbar */}
+      {/* <Blogs language={dictionary.Blog} /> */}
       <CallToAction language={dictionary.CallToAction} />
-      <Footer />
+      <Footer language={dictionary.Footer} />
     </>
   );
 }

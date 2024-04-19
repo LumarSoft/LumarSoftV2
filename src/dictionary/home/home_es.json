@@ -120,13 +120,45 @@
     "subtitle": "Proyecto",
     "button": "Contactános"
   },
-  
-  "Works3":{
-    "title": "Portfolio",
-    "subtitle": "Nuestros últimos proyectos",
-    "imgTitle": "Ecommerce",
-    "imgSubtitle": "Ecommerce Fornax",
-    "imgTitle2": "  Chatbot",
-    "imgSubtitle2": "Chatbot John Pellegrini"
+
+  "Works": {
+    "title": "Proyectos",
+    "subtitle": "Estos son los últimos proyectos que hemos hecho.",
+    "Projects": [
+      {
+        "title": "Ecommerce",
+        "subtitle": "Ecommerce Fornax",
+        "link": "https://www.fornax.com.ar/",
+        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
+      },
+      {
+        "title": "Web",
+        "subtitle": "Web LumarSoft",
+        "link": "https://www.lumarsoft.com/",
+        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
+      },
+      {
+        "title": "Chatbot",
+        "subtitle": "Chatbot John Pellegrini",
+        "link": "https://www.lumarsoft.com/",
+        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
+      }
+    ]
+  },
+
+  "Footer": {
+    "ContactUs": "Contáctanos",
+    "OficialAdress": "Dirección oficial",
+    "Adress": "San Martín 4200. Rosario, Argentina",
+    "EmailUs": "Nuestro email",
+    "Email": "lumarsoftarg@gmail.com",
+    "CallUs": "Llámanos",
+    "Phone": "+54 9 341 2776893",
+    "CopyRight": "Hecho con ❤️ por",
+    "Company": "LumarSoft",
+    "Redes": {
+      "instagram": "https://www.instagram.com/lumarsoft/",
+      "linkedin": "https://www.linkedin.com/"
+    }
   }
 }
