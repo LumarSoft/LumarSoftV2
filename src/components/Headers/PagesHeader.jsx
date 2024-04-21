@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function PagesHeader({ children, imageLink }) {
   return (
@@ -8,7 +8,8 @@ function PagesHeader({ children, imageLink }) {
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-                {children}
+                Donde la creatividad se encuentra con la tecnología, nacen las
+                posibilidades infinitas.
               </h1>
             </div>
           </div>
@@ -26,7 +27,7 @@ function PagesHeader({ children, imageLink }) {
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default PagesHeader
+export default PagesHeader;

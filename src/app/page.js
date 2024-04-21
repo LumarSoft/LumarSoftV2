@@ -8,12 +8,10 @@ import Header from "@/components/Headers/Header4";
 import AboutUs from "@/components/AboutUs/AboutUs3";
 import Works from "@/components/Works/Works3";
 import Services from "@/components/Services/Services3";
-import MinimalArea2 from "@/components/Others/MinimalArea2";
-import FullTestimonials from "@/components/Testimonials/FullTestimonials";
-import Team from "@/components/Team/Team1";
 import CallToAction from "@/components/Others/CallToAction";
 import Footer from "@/components/Common/Footer";
-import Blogs from "@/components/Blogs/BlogGrid";
+import "@/styles/style.css";
+
 export const metadata = {
   title: "LumarSoft",
   icons: {
@@ -23,7 +21,6 @@ export const metadata = {
       "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
       "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap",
       "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap",
-      "/css/dark.css",
     ]),
   },
 };
@@ -41,8 +38,6 @@ export default async function LandingPreview() {
       <AboutUs language={dictionary.AboutUs} />
       <Works language={dictionary.Works} />
       <Services language={dictionary.Services} />
-      {/* No pondría el blog en la home. Directamente si quieren verlo lo pueden hacer desde la navbar */}
-      {/* <Blogs language={dictionary.Blog} /> */}
       <CallToAction language={dictionary.CallToAction} />
       <Footer language={dictionary.Footer} />
     </>

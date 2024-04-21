@@ -1,6 +1,5 @@
 import React from "react";
 //= Static Data
-import AboutInfo1Data from "@/data/about-info.json";
 
 function AboutIntro({ language }) {
   return (
@@ -18,7 +17,7 @@ function AboutIntro({ language }) {
                 {language.paragraph1}
               </p>
               <p className="wow txt words chars splitting" data-splitting>
-                {AboutInfo1Data.paragraph2}
+                {language.paragraph2}
               </p>
             </div>
           </div>

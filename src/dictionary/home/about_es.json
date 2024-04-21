@@ -1,4 +1,14 @@
 {
+  "AboutIntro": {
+    "title": "¿Quienes somos?",
+    "paragraph1": "Desarrollamos soluciones creativas tanto para pequeñas como para grandes marcas, construimos auténticas identidades de producto y mucho más. Nuestro enfoque estratégico nos permite sumergimos en el núcleo de su negocio para comprender sus necesidades únicas y objetivos. Combinamos profundos conocimientos del mercado con un pensamiento innovador para entregar soluciones digitales a medida que impulsen el crecimiento.",
+    "paragraph2": "Ya sea que requiera una nueva aplicación móvil, un sitio web corporativo de última generación, una plataforma de comercio electrónico o un sistema personalizado, nuestro equipo tiene la experiencia y la pasión para llevarlo a cabo. Nos especializamos en una amplia gama de tecnologías, desde desarrollo web y móvil hasta inteligencia artificial y análisis de datos."
+  },
+  "Services": {
+    "subtitle": "Nuestras habilidades",
+    "title": "Todo lo necesario para llevar tu marca al siguiente nivel"
+  },
+
   "CallToAction": {
     "stitle": "Hablemos",
     "title": "Sobre tu",
@@ -19,9 +29,5 @@
       "instagram": "https://www.instagram.com/lumarsoft/",
       "linkedin": "https://www.linkedin.com/"
     }
-  },
-  "AboutIntro": {
-    "title": "¿Quienes somos?",
-    "paragraph1": "Desarrollamos soluciones creativas tanto para pequeñas como para grandes marcas, construimos auténticas identidades de producto y mucho más."
   }
 }

@@ -21,6 +21,72 @@
     "numberCard": "+50",
     "button": "Sobre nosotros"
   },
+  "Works": {
+    "title": "Proyectos",
+    "subtitle": "Estos son los últimos proyectos que hemos hecho.",
+    "Projects": [
+      {
+        "title": "Ecommerce",
+        "subtitle": "Ecommerce Fornax",
+        "link": "https://www.fornax.com.ar/",
+        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
+      },
+      {
+        "title": "Web",
+        "subtitle": "Web LumarSoft",
+        "link": "https://www.lumarsoft.com/",
+        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
+      },
+      {
+        "title": "Chatbot",
+        "subtitle": "Chatbot John Pellegrini",
+        "link": "https://www.lumarsoft.com/",
+        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
+      }
+    ]
+  },
+  "Services": {
+    "preTitle": "Nuestros servicios",
+    "title": "Ayudamos a crear estrategias, diseño y desarrollo.",
+    "oneCard": {
+      "title": "Desarrollo web",
+      "description": "Desarrollamos sitios web personalizados y eficientes que se adaptan a tus necesidades y objetivos comerciales."
+    },
+    "twoCard": {
+      "title": "Desarrollo de tiendas online",
+      "description": "Creamos tiendas online atractivas y funcionales que te ayudan a vender tus productos y servicios en línea."
+    },
+    "threeCard": {
+      "title": "Desarrollo de software",
+      "description": "Diseñamos y desarrollamos soluciones de software personalizadas que optimizan tus procesos y mejoran la eficiencia."
+    },
+    "fourCard": {
+      "title": "Diseño grafico",
+      "description": "Creamos diseños gráficos atractivos y profesionales que reflejan la identidad de tu marca y cautivan a tu audiencia."
+    }
+  },
+  "CallToAction": {
+    "stitle": "Hablemos",
+    "title": "Sobre tu",
+    "subtitle": "Proyecto",
+    "button": "Contactános"
+  },
+  "Footer": {
+    "GetTouch": "Hablemos",
+    "OficialAdress": "Dirección oficial",
+    "Adress": "San Martín 4200. Rosario, Argentina",
+    "EmailUs": "Nuestro email",
+    "Email": "lumarsoftarg@gmail.com",
+    "CallUs": "Llámanos",
+    "Phone": "+54 9 341 2776893",
+    "CopyRight": "Hecho con ❤️ por",
+    "Company": "LumarSoft",
+    "Redes": {
+      "instagram": "https://www.instagram.com/lumarsoft/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  },
+
   "WhyChoose": {
     "title": "¿Por qué elegirnos?",
     "description": "En LumarSoft, sabemos que elegir el socio adecuado para tus necesidades de desarrollo de software es crucial. Nuestro compromiso con la excelencia y la satisfacción del cliente es inquebrantable. Aquí hay algunas razones para elegirnos:",
@@ -69,26 +135,6 @@
     "subtitle3": "Nuestra misión",
     "description2": "En LumarSoft, nos comprometemos a brindar soluciones de software de alta calidad que impulsen el éxito de nuestros clientes. Nuestra misión es colaborar estrechamente con cada cliente para entender sus necesidades y ofrecer soluciones innovadoras y personalizadas que superen sus expectativas. Estamos dedicados a proporcionar un servicio excepcional, impulsado por la excelencia técnica y el compromiso con la satisfacción del cliente."
   },
-  "Services": {
-    "preTitle": "Nuestros servicios",
-    "title": "Ayudamos a crear estrategias, diseño y desarrollo.",
-    "oneCard": {
-      "title": "Desarrollo web",
-      "description": "Desarrollamos sitios web personalizados y eficientes que se adaptan a tus necesidades y objetivos comerciales."
-    },
-    "twoCard": {
-      "title": "Desarrollo de tiendas online",
-      "description": "Creamos tiendas online atractivas y funcionales que te ayudan a vender tus productos y servicios en línea."
-    },
-    "threeCard": {
-      "title": "Desarrollo de software",
-      "description": "Diseñamos y desarrollamos soluciones de software personalizadas que optimizan tus procesos y mejoran la eficiencia."
-    },
-    "fourCard": {
-      "title": "Diseño grafico",
-      "description": "Creamos diseños gráficos atractivos y profesionales que reflejan la identidad de tu marca y cautivan a tu audiencia."
-    }
-  },
   "Blog": {
     "title": "Blog",
     "description": "Descubre las últimas noticias, tendencias y consejos sobre desarrollo de software y tecnología.",
@@ -113,52 +159,5 @@
         "button": "Leer mas"
       }
     ]
-  },
-  "CallToAction": {
-    "stitle": "Hablemos",
-    "title": "Sobre tu",
-    "subtitle": "Proyecto",
-    "button": "Contactános"
-  },
-
-  "Works": {
-    "title": "Proyectos",
-    "subtitle": "Estos son los últimos proyectos que hemos hecho.",
-    "Projects": [
-      {
-        "title": "Ecommerce",
-        "subtitle": "Ecommerce Fornax",
-        "link": "https://www.fornax.com.ar/",
-        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
-      },
-      {
-        "title": "Web",
-        "subtitle": "Web LumarSoft",
-        "link": "https://www.lumarsoft.com/",
-        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
-      },
-      {
-        "title": "Chatbot",
-        "subtitle": "Chatbot John Pellegrini",
-        "link": "https://www.lumarsoft.com/",
-        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
-      }
-    ]
-  },
-
-  "Footer": {
-    "GetTouch": "Hablemos",
-    "OficialAdress": "Dirección oficial",
-    "Adress": "San Martín 4200. Rosario, Argentina",
-    "EmailUs": "Nuestro email",
-    "Email": "lumarsoftarg@gmail.com",
-    "CallUs": "Llámanos",
-    "Phone": "+54 9 341 2776893",
-    "CopyRight": "Hecho con ❤️ por",
-    "Company": "LumarSoft",
-    "Redes": {
-      "instagram": "https://www.instagram.com/lumarsoft/",
-      "linkedin": "https://www.linkedin.com/"
-    }
   }
 }
