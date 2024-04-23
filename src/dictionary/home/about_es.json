@@ -6,9 +6,34 @@
   },
   "Services": {
     "subtitle": "Nuestras habilidades",
-    "title": "Todo lo necesario para llevar tu marca al siguiente nivel"
+    "title": "Todo lo necesario para llevar tu marca al siguiente nivel",
+    "features": [
+      {
+        "id": 1,
+        "title": "Desarrollo Web",
+        "description": "Diseño web moderno y funcional, optimizado para dispositivos móviles. Soluciones personalizadas que se adaptan a tus necesidades y objetivos.",
+        "icon": "pe-7s-browser"
+      },
+      {
+        "id": 2,
+        "title": "Desarrollo Móvil",
+        "description": "Desarrollamos aplicaciones móviles nativas e híbridas para iOS y Android. Nuestras aplicaciones son rápidas, seguras y fáciles de usar.",
+        "icon": "pe-7s-phone"
+      },
+      {
+        "id": 3,
+        "title": "Diseño UI/UX",
+        "description": "Diseñamos interfaces de usuario atractivas y fáciles de usar. Nuestros diseños son limpios, modernos y accesibles.",
+        "icon": "pe-7s-paint-bucket"
+      },
+      {
+        "id": 4,
+        "title": "E-commerce",
+        "description": "Desarrollamos plataformas de comercio electrónico a medida que se adaptan a las necesidades de su negocio. Rápidas, seguras y fáciles de administrar.",
+        "icon": "pe-7s-display1"
+      }
+    ]
   },
-
   "CallToAction": {
     "stitle": "Hablemos",
     "title": "Sobre tu",
@@ -29,5 +54,52 @@
       "instagram": "https://www.instagram.com/lumarsoft/",
       "linkedin": "https://www.linkedin.com/"
     }
+  },
+  "TestimonialsWithVideo": {
+    "title": "Ver video",
+    "OurClients": "Nuestros clientes",
+    "WhatsSay": "Que dicen de nosotros",
+    "Testimonials": [
+      {
+        "id": 1,
+        "name": "Gustavo Brack",
+        "position": "Asesor de Ventas, Fornax",
+        "photo": "assets/img/testimonials/1.jpg",
+        "video": "https://www.youtube.com/watch?v=9No-FiEInLA",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc nec dui volutpat semper. Nullam nec purus ut nunc tincidunt tincidunt. Nullam nec purus ut nunc tincidunt tincidunt."
+      },
+      {
+        "id": 2,
+        "name": "Marcelo Benitez",
+        "position": "CEO, LumarSoft",
+        "photo": "assets/img/testimonials/2.jpg",
+        "video": "https://www.youtube.com/watch?v=9No-FiEInLA",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc nec dui volutpat semper. Nullam nec purus ut nunc tincidunt tincidunt. Nullam nec purus ut nunc tincidunt tincidunt."
+      }
+    ]
+  },
+  "AboutUs": {
+    "title": "Objetivos",
+    "subtitle": "En LumarSoft tenemos nuestros objetivos, y queremos compartirlos con vos",
+    "paragraphs": [
+      {
+        "id": 1,
+        "number": "01",
+        "paragraph": "Nuestra mision",
+        "description": "Nuestra misión es brindar soluciones tecnológicas innovadoras y personalizadas que mejoren la eficiencia y productividad de nuestros clientes."
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "paragraph": "Nuestro objetivo",
+        "description": "Nuestro objetivo es establecer relaciones a largo plazo con nuestros clientes y proveedores, basadas en la confianza, la transparencia y la calidad de nuestros servicios."
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "paragraph": "Porque LumarSoft?",
+        "description": "Elegir LumarSoft significa optar por un equipo de profesionales altamente capacitados y comprometidos con el éxito de tu negocio. Te ofrecemos soluciones personalizadas, adaptadas a tus necesidades específicas y un servicio de atención al cliente excepcional."
+      }
+    ]
   }
 }

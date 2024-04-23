@@ -22,7 +22,7 @@ function Services1({ style, lines, language }) {
         </div>
         <div className="row">
           {style === "4item"
-            ? featuresData.map((feature) => (
+            ? language.features.map((feature) => (
                 <div
                   key={feature.id}
                   className="col-lg-6 wow fadeInLeft"
@@ -42,7 +42,7 @@ function Services1({ style, lines, language }) {
                     </div>
                     <div className="cont">
                       <h6>{feature.title}</h6>
-                      <p>{feature.content}</p>
+                      <p>{feature.description}</p>
                     </div>
                   </div>
                 </div>

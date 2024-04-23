@@ -23,11 +23,11 @@ async function AboutDark() {
       <Navbar />
       <PagesHeader imageLink="/img/slid/about.jpg" />
       <AboutIntro language={dictionary.AboutIntro} />
-      <Services style="4item" language={dictionary.Services}/>
-      <TestimonialsWithVideo />
+      <Services style="4item" language={dictionary.Services} />
+      <TestimonialsWithVideo language={dictionary.TestimonialsWithVideo}/>
       <SkillsCircle from="aboutPage" />
       <Team />
-      <MinimalArea />
+      <MinimalArea language={dictionary.AboutUs} />
       <Clients theme="dark" />
       <CallToAction language={dictionary.CallToAction} />
       <Footer language={dictionary.Footer} />
