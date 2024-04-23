@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import TypewriterComponent from "typewriter-effect";
 const Header4 = ({ language }) => {
   return (
@@ -20,10 +21,9 @@ const Header4 = ({ language }) => {
                   />
                 </h1>
               </div>
-              <button className="btn-hero-contact animation-pulse">
-                <a href=""></a>
+              <Link className="btn-hero-contact animation-pulse" href="/about">
                 <span className="">{language.button}</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

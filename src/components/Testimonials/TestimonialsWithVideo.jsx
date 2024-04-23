@@ -63,7 +63,7 @@ function TestimonialsWithVideo({ language }) {
                       <div className="info">
                         <div className="img">
                           <div className="img-box">
-                            <img src="/img/clients/1.jpg" alt="" />
+                            <img src={item.photo} alt="" />
                           </div>
                         </div>
                         <div className="cont">

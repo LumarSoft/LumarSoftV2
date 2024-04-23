@@ -26,9 +26,9 @@ async function AboutDark() {
       <Services style="4item" language={dictionary.Services} />
       <TestimonialsWithVideo language={dictionary.TestimonialsWithVideo}/>
       <SkillsCircle from="aboutPage" />
-      <Team />
+      <Team language={dictionary.Team}/>
       <MinimalArea language={dictionary.AboutUs} />
-      <Clients theme="dark" />
+      {/* <Clients theme="dark" /> */}
       <CallToAction language={dictionary.CallToAction} />
       <Footer language={dictionary.Footer} />
     </>

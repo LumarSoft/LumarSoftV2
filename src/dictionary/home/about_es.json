@@ -64,7 +64,7 @@
         "id": 1,
         "name": "Gustavo Brack",
         "position": "Asesor de Ventas, Fornax",
-        "photo": "assets/img/testimonials/1.jpg",
+        "photo": "/img/clients/Fornax2.jpg",
         "video": "https://www.youtube.com/watch?v=9No-FiEInLA",
         "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc nec dui volutpat semper. Nullam nec purus ut nunc tincidunt tincidunt. Nullam nec purus ut nunc tincidunt tincidunt."
       },
@@ -72,7 +72,7 @@
         "id": 2,
         "name": "Marcelo Benitez",
         "position": "CEO, LumarSoft",
-        "photo": "assets/img/testimonials/2.jpg",
+        "photo": "assets/img/testimonials/fornax.png",
         "video": "https://www.youtube.com/watch?v=9No-FiEInLA",
         "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc nec dui volutpat semper. Nullam nec purus ut nunc tincidunt tincidunt. Nullam nec purus ut nunc tincidunt tincidunt."
       }
@@ -99,6 +99,34 @@
         "number": "03",
         "paragraph": "Porque LumarSoft?",
         "description": "Elegir LumarSoft significa optar por un equipo de profesionales altamente capacitados y comprometidos con el éxito de tu negocio. Te ofrecemos soluciones personalizadas, adaptadas a tus necesidades específicas y un servicio de atención al cliente excepcional."
+      }
+    ]
+  },
+  "Team": {
+    "title": "Nuestro equipo",
+    "subtitle": "Conoce a las personas que hacen posible LumarSoft",
+    "description": "Somos LumarSoft, donde la tecnología se encuentra con la empatía. Más que solo un equipo de desarrollo, nos preocupamos por comprender sus necesidades para ofrecerle soluciones que no solo funcionen, sino que también resuenen con usted y su audiencia.",
+    "members": [
+      {
+        "id": 1,
+        "name": "Marcelo Benitez",
+        "position": "Full Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/marcelo-benitez-1b1b1b1b1/",
+        "instagram": "https://www.instagram.com/marcelobenitez/"
+      },
+      {
+        "id": 2,
+        "name": "Lucas Benitez",
+        "position": "Backend Developer",
+        "linkedin": "https://www.linkedin.com/in/lucas-benitez-1b1b1b1b1/",
+        "instagram": "https://www.instagram.com/lucasbenitez/"
+      },
+      {
+        "id": 3,
+        "name": "Mateo Bodini",
+        "position": "Full Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/gustavo-brack-1b1b1b1b1/",
+        "instagram": "https://www.instagram.com/gustavobrack/"
       }
     ]
   }
