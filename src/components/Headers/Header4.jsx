@@ -1,16 +1,29 @@
+"use client";
 import React from "react";
-
-const Header4 = ({ sliderRef }) => {
+import Link from "next/link";
+import TypewriterComponent from "typewriter-effect";
+const Header4 = ({ language }) => {
   return (
-    <header ref={sliderRef} className="particles circle-bg valign">
-      <div className="container">
+    <header className="particles circle-bg valign">
+      <div className="container container-hero">
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="cont text-center">
-              <h1>
-                <span className="color-font">Creativity</span> is the process of
-                having <span className="color-font">original ideas</span>.
-              </h1>
+              <div>
+                <h1>{language.title1}</h1>
+                <h1 className="color-font">
+                  <TypewriterComponent
+                    options={{
+                      strings: language.title2,
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </h1>
+              </div>
+              <Link className="btn-hero-contact animation-pulse" href="/about">
+                <span className="">{language.button}</span>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,16 +1,16 @@
+import Script from "next/script";
+import generateStylesheetObject from "@/common/generateStylesheetsObject";
 //= Global Styles
-import "@/styles/main.scss"
+import "@/styles/main.scss";
 import "@/styles/preloader.css";
 import "@/styles/modal-video.css";
 import "swiper/css/bundle";
 import "react-circular-progressbar/dist/styles.css";
 import Cursor from "@/components/Common/Cursor";
 import ProgressScroll from "@/components/Common/ProgressScroll";
-import Script from "next/script";
-import generateStylesheetObject from "@/common/generateStylesheetsObject";
 
 export const metadata = {
-  title: "Vie",
+  title: "LumarSoft",
   description: "Vie - Multi-Purpose React.js Next.js Template",
   keywords: ["HTML5", "Template", "Vie", "Multi-Purpose", "themeforest"],
   icons: {
@@ -21,7 +21,6 @@ export const metadata = {
     "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
     "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap",
     "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap",
-    "/css/dark.css",
   ]),
 };
 

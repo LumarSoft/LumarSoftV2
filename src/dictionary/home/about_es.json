@@ -1,0 +1,133 @@
+{
+  "AboutIntro": {
+    "title": "¿Quienes somos?",
+    "paragraph1": "Desarrollamos soluciones creativas tanto para pequeñas como para grandes marcas, construimos auténticas identidades de producto y mucho más. Nuestro enfoque estratégico nos permite sumergimos en el núcleo de su negocio para comprender sus necesidades únicas y objetivos. Combinamos profundos conocimientos del mercado con un pensamiento innovador para entregar soluciones digitales a medida que impulsen el crecimiento.",
+    "paragraph2": "Ya sea que requiera una nueva aplicación móvil, un sitio web corporativo de última generación, una plataforma de comercio electrónico o un sistema personalizado, nuestro equipo tiene la experiencia y la pasión para llevarlo a cabo. Nos especializamos en una amplia gama de tecnologías, desde desarrollo web y móvil hasta inteligencia artificial y análisis de datos."
+  },
+  "Services": {
+    "subtitle": "Nuestras habilidades",
+    "title": "Todo lo necesario para llevar tu marca al siguiente nivel",
+    "features": [
+      {
+        "id": 1,
+        "title": "Desarrollo Web",
+        "description": "Diseño web moderno y funcional, optimizado para dispositivos móviles. Soluciones personalizadas que se adaptan a tus necesidades y objetivos.",
+        "icon": "pe-7s-browser"
+      },
+      {
+        "id": 2,
+        "title": "Desarrollo Móvil",
+        "description": "Desarrollamos aplicaciones móviles nativas e híbridas para iOS y Android. Nuestras aplicaciones son rápidas, seguras y fáciles de usar.",
+        "icon": "pe-7s-phone"
+      },
+      {
+        "id": 3,
+        "title": "Diseño UI/UX",
+        "description": "Diseñamos interfaces de usuario atractivas y fáciles de usar. Nuestros diseños son limpios, modernos y accesibles.",
+        "icon": "pe-7s-paint-bucket"
+      },
+      {
+        "id": 4,
+        "title": "E-commerce",
+        "description": "Desarrollamos plataformas de comercio electrónico a medida que se adaptan a las necesidades de su negocio. Rápidas, seguras y fáciles de administrar.",
+        "icon": "pe-7s-display1"
+      }
+    ]
+  },
+  "CallToAction": {
+    "stitle": "Hablemos",
+    "title": "Sobre tu",
+    "subtitle": "Proyecto",
+    "button": "Contactános"
+  },
+  "Footer": {
+    "GetTouch": "Hablemos",
+    "OficialAdress": "Dirección oficial",
+    "Adress": "San Martín 4200. Rosario, Argentina",
+    "EmailUs": "Nuestro email",
+    "Email": "lumarsoftarg@gmail.com",
+    "CallUs": "Llámanos",
+    "Phone": "+54 9 341 2776893",
+    "CopyRight": "Hecho con ❤️ por",
+    "Company": "LumarSoft",
+    "Redes": {
+      "instagram": "https://www.instagram.com/lumarsoft/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  },
+  "TestimonialsWithVideo": {
+    "title": "Ver video",
+    "OurClients": "Nuestros clientes",
+    "WhatsSay": "Que dicen de nosotros",
+    "Testimonials": [
+      {
+        "id": 1,
+        "name": "Gustavo Brack",
+        "position": "Asesor de Ventas, Fornax",
+        "photo": "/img/clients/Fornax2.jpg",
+        "video": "https://www.youtube.com/watch?v=9No-FiEInLA",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc nec dui volutpat semper. Nullam nec purus ut nunc tincidunt tincidunt. Nullam nec purus ut nunc tincidunt tincidunt."
+      },
+      {
+        "id": 2,
+        "name": "Marcelo Benitez",
+        "position": "CEO, LumarSoft",
+        "photo": "assets/img/testimonials/fornax.png",
+        "video": "https://www.youtube.com/watch?v=9No-FiEInLA",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc nec dui volutpat semper. Nullam nec purus ut nunc tincidunt tincidunt. Nullam nec purus ut nunc tincidunt tincidunt."
+      }
+    ]
+  },
+  "AboutUs": {
+    "title": "Objetivos",
+    "subtitle": "En LumarSoft tenemos nuestros objetivos, y queremos compartirlos con vos",
+    "paragraphs": [
+      {
+        "id": 1,
+        "number": "01",
+        "paragraph": "Nuestra mision",
+        "description": "Nuestra misión es brindar soluciones tecnológicas innovadoras y personalizadas que mejoren la eficiencia y productividad de nuestros clientes."
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "paragraph": "Nuestro objetivo",
+        "description": "Nuestro objetivo es establecer relaciones a largo plazo con nuestros clientes y proveedores, basadas en la confianza, la transparencia y la calidad de nuestros servicios."
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "paragraph": "Porque LumarSoft?",
+        "description": "Elegir LumarSoft significa optar por un equipo de profesionales altamente capacitados y comprometidos con el éxito de tu negocio. Te ofrecemos soluciones personalizadas, adaptadas a tus necesidades específicas y un servicio de atención al cliente excepcional."
+      }
+    ]
+  },
+  "Team": {
+    "title": "Nuestro equipo",
+    "subtitle": "Conoce a las personas que hacen posible LumarSoft",
+    "description": "Somos LumarSoft, donde la tecnología se encuentra con la empatía. Más que solo un equipo de desarrollo, nos preocupamos por comprender sus necesidades para ofrecerle soluciones que no solo funcionen, sino que también resuenen con usted y su audiencia.",
+    "members": [
+      {
+        "id": 1,
+        "name": "Marcelo Benitez",
+        "position": "Full Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/marcelo-benitez-1b1b1b1b1/",
+        "instagram": "https://www.instagram.com/marcelobenitez/"
+      },
+      {
+        "id": 2,
+        "name": "Lucas Benitez",
+        "position": "Backend Developer",
+        "linkedin": "https://www.linkedin.com/in/lucas-benitez-1b1b1b1b1/",
+        "instagram": "https://www.instagram.com/lucasbenitez/"
+      },
+      {
+        "id": 3,
+        "name": "Mateo Bodini",
+        "position": "Full Stack Developer",
+        "linkedin": "https://www.linkedin.com/in/gustavo-brack-1b1b1b1b1/",
+        "instagram": "https://www.instagram.com/gustavobrack/"
+      }
+    ]
+  }
+}

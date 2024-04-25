@@ -8,14 +8,12 @@ import Header from "@/components/Headers/Header4";
 import AboutUs from "@/components/AboutUs/AboutUs3";
 import Works from "@/components/Works/Works3";
 import Services from "@/components/Services/Services3";
-import MinimalArea2 from "@/components/Others/MinimalArea2";
-import FullTestimonials from "@/components/Testimonials/FullTestimonials";
-import Team from "@/components/Team/Team1";
 import CallToAction from "@/components/Others/CallToAction";
 import Footer from "@/components/Common/Footer";
-import Blogs from "@/components/Blogs/BlogGrid";
+import "@/styles/style.css";
+
 export const metadata = {
-  title: "Vie - Preview",
+  title: "LumarSoft",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -23,26 +21,25 @@ export const metadata = {
       "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
       "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap",
       "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap",
-      "/css/dark.css",
     ]),
   },
 };
 
-export default function LandingPreview() {
+export default async function LandingPreview() {
+  const dictionary = await import(`@/dictionary/home/home_es.json`).then(
+    (res) => res.default
+  );
+
   return (
     <>
       <Loading />
       <Navbar />
-      <Header />
-      <AboutUs />
-      <Works />
-      <Services />
-      <MinimalArea2 />
-      <FullTestimonials classText="pb-0" />
-      <Team />
-      <Blogs />
-      <CallToAction />
-      <Footer />
+      <Header language={dictionary.Hero} />
+      <AboutUs language={dictionary.AboutUs} />
+      <Works language={dictionary.Works} />
+      <Services language={dictionary.Services} />
+      <CallToAction language={dictionary.CallToAction} />
+      <Footer language={dictionary.Footer} />
     </>
   );
 }

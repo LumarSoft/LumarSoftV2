@@ -19,7 +19,7 @@
     "react-scroll": "^1.8.9",
     "react-tsparticles": "^2.12.2",
     "swiper": "^8.4.6",
-    "typewriter-effect": "^2.20.1"
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "sass": "^1.66.1"

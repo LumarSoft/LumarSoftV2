@@ -1,10 +1,10 @@
-'use client';
+"use client";
 import React, { useEffect } from "react";
 import Link from "next/link";
 //= Scripts
 import cardMouseEffect from "@/common/cardMouseEffect";
 
-function Services3() {
+function Services3({ language }) {
   useEffect(() => {
     cardMouseEffect(document.querySelectorAll(".feat .items"));
   }, []);
@@ -16,11 +16,9 @@ function Services3() {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Services
+                {language.preTitle}
               </h6>
-              <h3 className="wow color-font">
-                We help to create strategies, design &amp; development.
-              </h3>
+              <h3 className="wow color-font">{language.title}</h3>
             </div>
           </div>
         </div>
@@ -30,11 +28,8 @@ function Services3() {
               <span className="icon">
                 <i className="ion-ios-monitor"></i>
               </span>
-              <h5>Interface Design</h5>
-              <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
-              </p>
+              <h5>{language.oneCard.title}</h5>
+              <p>{language.oneCard.description}</p>
               <Link href="/about/about-dark" className="more-stroke">
                 <span></span>
               </Link>
@@ -45,11 +40,8 @@ function Services3() {
               <span className="icon">
                 <i className="ion-ios-bolt-outline"></i>
               </span>
-              <h5>Creative Always</h5>
-              <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
-              </p>
+              <h5>{language.twoCard.title}</h5>
+              <p>{language.twoCard.description}</p>
               <Link href="/about/about-dark" className="more-stroke">
                 <span></span>
               </Link>
@@ -60,11 +52,8 @@ function Services3() {
               <span className="icon">
                 <i className="ion-cube"></i>
               </span>
-              <h5>Real-time Editing</h5>
-              <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
-              </p>
+              <h5>{language.threeCard.title}</h5>
+              <p>{language.threeCard.description}</p>
               <Link href="/about/about-dark" className="more-stroke">
                 <span></span>
               </Link>
@@ -75,11 +64,8 @@ function Services3() {
               <span className="icon">
                 <i className="ion-ios-color-wand"></i>
               </span>
-              <h5>Art Concept</h5>
-              <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
-              </p>
+              <h5>{language.fourCard.title}</h5>
+              <p>{language.fourCard.description}</p>
               <Link href="/about/about-dark" className="more-stroke">
                 <span></span>
               </Link>
@@ -89,6 +75,6 @@ function Services3() {
       </div>
     </section>
   );
-};
+}
 
 export default Services3;

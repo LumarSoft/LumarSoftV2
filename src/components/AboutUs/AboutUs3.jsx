@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useEffect } from "react";
 import Link from "next/link";
 //= Components
@@ -7,8 +7,9 @@ import Split from "@/components/Common/Split";
 import { thumparallax, thumparallaxDown } from "@/common/thumparallax";
 //= Static Data
 import AboutUs3date from "@/data/sections/about-us3.json";
+import { useRouterHelper } from "@/shared/hooks/useRouterHelper";
 
-const AboutUs3 = () => {
+const AboutUs3 = ({ language }) => {
   useEffect(() => {
     setTimeout(() => {
       thumparallax();
@@ -16,6 +17,7 @@ const AboutUs3 = () => {
     }, 500);
   }, []);
 
+  const aboutRoute = useRouterHelper().getOneRoute("Nosotros");
   return (
     <section className="agency section-padding position-re">
       <div className="container">
@@ -36,8 +38,8 @@ const AboutUs3 = () => {
                       />
                     </div>
                     <div className="exp">
-                      <h2 className="nmb-font">{AboutUs3date.exp.nmb}</h2>
-                      <h6>{AboutUs3date.exp.name}</h6>
+                      <h2 className="nmb-font">{language.numberCard}</h2>
+                      <h6>{language.titleCard}</h6>
                     </div>
                   </div>
                 </div>
@@ -62,17 +64,21 @@ const AboutUs3 = () => {
             <div className="content">
               <Split>
                 <h4 className="wow words chars splitting" data-splitting>
-                  {AboutUs3date.title.first} <br /> {AboutUs3date.title.second}
+                  {language.titleFirst} <br /> {language.titleSecond}
                 </h4>
               </Split>
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  {AboutUs3date.content.first} <br />
-                  {AboutUs3date.content.second}
+                  {language.descriptionFirst} <br />
+                  {language.descriptionSecond}
                 </p>
               </Split>
-              <Link href={`/about/about-dark`} className="butn bord curve mt-40 wow fadeInUp" data-wow-delay=".8s">
-                <span>{AboutUs3date.smallTitle}</span>
+              <Link
+                href={aboutRoute.path}
+                className="butn bord curve mt-40 wow fadeInUp"
+                data-wow-delay=".8s"
+              >
+                <span>{language.button}</span>
               </Link>
               <br />
             </div>
