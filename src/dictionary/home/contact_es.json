@@ -1,0 +1,22 @@
+{
+    "ContactHeader":{
+        "Title":"Hablemos",
+        "Subtitle": "Sobre tu proyecto",
+        "Paragraph": "Estamos listos para llevar tu negocio al siguiente nivel."
+    },
+    "Footer": {
+        "GetTouch": "Hablemos",
+        "OficialAdress": "Dirección oficial",
+        "Adress": "San Martín 4200. Rosario, Argentina",
+        "EmailUs": "Nuestro email",
+        "Email": "lumarsoftarg@gmail.com",
+        "CallUs": "Llámanos",
+        "Phone": "+54 9 341 2776893",
+        "CopyRight": "Hecho con ❤️ por",
+        "Company": "LumarSoft",
+        "Redes": {
+          "instagram": "https://www.instagram.com/lumarsoft/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      }
+}
