@@ -10,23 +10,26 @@ export const metadata = {
   title: "LumarSoft",
 };
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const dictionary = await import(`@/dictionary/home/contact_es.json`).then(
+    (res) => res.default
+  );
   return (
     <>
       <Loading />
       <Navbar />
-      <ContactHeader />
+      <ContactHeader language={dictionary.ContactHeader} />
       <div className="main-content">
-        <ContactForm />
+        <ContactForm language={dictionary.ContactForm} />
         <div className="map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29695.671230259337!2d2.3558151621751584!3d48.86295242559001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2z2YXYqtit2YEg2KfZhNmE2YjZgdix!5e0!3m2!1sar!2seg!4v1642786626975!5m2!1sar!2seg"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.613294201724!2d-60.647790325878546!3d-32.98760287357636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abc730abb121%3A0x757422dd89cb54df!2sAmeghino%20850%2C%20S2001BQL%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1714059156949!5m2!1ses!2sa"
             width="100%"
             height="100%"
             loading="lazy"
           ></iframe>
         </div>
-        <Footer hideBGCOLOR />
+        <Footer hideBGCOLOR language={dictionary.Footer} />
       </div>
     </>
   );

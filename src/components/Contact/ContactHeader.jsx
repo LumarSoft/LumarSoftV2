@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 //= Static Data
 import contentHeaderData from "@/data/contact-header.json";
 
-function ContactHeader() {
+function ContactHeader({language}) {
   useEffect(() => {
     setTimeout(() => {
       if (document.querySelector("#particles-js canvas")) {
@@ -20,10 +20,10 @@ function ContactHeader() {
             <div className="capt">
               <div className="text-center">
                 <h1 className="color-font mb-10 fw-700">
-                  {contentHeaderData.title.first} <br />
-                  {contentHeaderData.title.second}
+                  {language.Title} <br />
+                  {language.Subtitle}
                 </h1>
-                <p>{contentHeaderData.content}</p>
+                <p>{language.Paragraph}</p>
               </div>
             </div>
           </div>

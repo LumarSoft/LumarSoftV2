@@ -78,3 +78,4 @@ const Team = ({ language }) => {
 };
 
 export default Team;
+
