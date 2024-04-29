@@ -26,7 +26,7 @@ function MinimalArea1({ language }) {
               <h4 className="wow color-font">{language.title}</h4>
               <p className="wow txt" data-splitting></p>
               {language.paragraphs.map((item, index) => (
-                <ul className="feat" key={index.id}>
+                <ul className="feat" key={index}>
                   <li className="wow fadeInUp" data-wow-delay=".2s">
                     <h6>
                       <span>{item.number}</span> {item.paragraph}

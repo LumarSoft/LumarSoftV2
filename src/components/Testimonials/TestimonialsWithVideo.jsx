@@ -58,7 +58,7 @@ function TestimonialsWithVideo({ language }) {
                   data-wow-delay=".5s"
                 >
                   {language.Testimonials.map((item, index) => (
-                    <SwiperSlide className="item" key={index.id}>
+                    <SwiperSlide className="item" key={index}>
                       <p>{item.message}</p>
                       <div className="info">
                         <div className="img">

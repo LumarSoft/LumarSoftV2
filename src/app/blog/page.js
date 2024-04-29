@@ -5,12 +5,17 @@ import Navbar from "@/components/Common/Navbar";
 import PageHeader from "@/components/Headers/PageHeader";
 import BlogGrid from "@/components/Blogs/BlogGrid";
 import Footer from "@/components/Common/Footer";
+import "@/styles/style.css";
 
 export const metadata = {
   title: "LumarSoft",
 };
 
-export default function BlogGridPage() {
+export default async function BlogGridPage() {
+  const dictionary = await import(`@/dictionary/blog/blog_es.json`).then(
+    (res) => res.default
+  );
+
   return (
     <>
       <Loading />

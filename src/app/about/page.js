@@ -8,27 +8,28 @@ import TestimonialsWithVideo from "@/components/Testimonials/TestimonialsWithVid
 import SkillsCircle from "@/components/Skills/SkillsCircle";
 import Team from "@/components/Team/Team1";
 import MinimalArea from "@/components/Others/MinimalArea1";
-import Clients from "@/components/Clients/Clients1";
 import CallToAction from "@/components/Others/CallToAction";
 import Footer from "@/components/Common/Footer";
 import "@/styles/style.css";
 
 async function AboutDark() {
-  const dictionary = await import(`@/dictionary/home/about_es.json`).then(
+  const dictionary = await import(`@/dictionary/about/about_es.json`).then(
     (res) => res.default
   );
   return (
     <>
       <Loading />
       <Navbar />
-      <PagesHeader imageLink="/img/slid/about.jpg" />
+      <PagesHeader
+        language={dictionary.Header}
+        imageLink="/img/slid/about.jpg"
+      />
       <AboutIntro language={dictionary.AboutIntro} />
       <Services style="4item" language={dictionary.Services} />
-      <TestimonialsWithVideo language={dictionary.TestimonialsWithVideo}/>
+      <TestimonialsWithVideo language={dictionary.TestimonialsWithVideo} />
       <SkillsCircle from="aboutPage" />
-      <Team language={dictionary.Team}/>
+      <Team language={dictionary.Team} />
       <MinimalArea language={dictionary.AboutUs} />
-      {/* <Clients theme="dark" /> */}
       <CallToAction language={dictionary.CallToAction} />
       <Footer language={dictionary.Footer} />
     </>

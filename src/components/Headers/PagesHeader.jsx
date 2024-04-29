@@ -1,16 +1,13 @@
 import React from "react";
 
-function PagesHeader({ children, imageLink }) {
+function PagesHeader({ language, imageLink }) {
   return (
     <header className="pages-header circle-bg valign">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
-              <h1 className="color-font fw-700">
-                Donde la creatividad se encuentra con la tecnología, nacen las
-                posibilidades infinitas.
-              </h1>
+              <h1 className="color-font fw-700">{language.title}</h1>
             </div>
           </div>
           <div className="col-lg-10">

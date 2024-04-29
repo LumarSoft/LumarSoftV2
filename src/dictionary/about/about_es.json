@@ -1,4 +1,7 @@
 {
+  "Header": {
+    "title": "Donde la creatividad se encuentra con la tecnología, nacen las posibilidades infinitas."
+  },
   "AboutIntro": {
     "title": "¿Quienes somos?",
     "paragraph1": "Desarrollamos soluciones creativas tanto para pequeñas como para grandes marcas, construimos auténticas identidades de producto y mucho más. Nuestro enfoque estratégico nos permite sumergimos en el núcleo de su negocio para comprender sus necesidades únicas y objetivos. Combinamos profundos conocimientos del mercado con un pensamiento innovador para entregar soluciones digitales a medida que impulsen el crecimiento.",
@@ -72,7 +75,7 @@
         "id": 2,
         "name": "Marcelo Benitez",
         "position": "CEO, LumarSoft",
-        "photo": "assets/img/testimonials/fornax.png",
+        "photo": "/img/clients/Fornax2.jpg",
         "video": "https://www.youtube.com/watch?v=9No-FiEInLA",
         "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nunc nec dui volutpat semper. Nullam nec purus ut nunc tincidunt tincidunt. Nullam nec purus ut nunc tincidunt tincidunt."
       }

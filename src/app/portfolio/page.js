@@ -5,12 +5,16 @@ import Navbar from "@/components/Common/Navbar";
 import WorksHeader from "@/components/Headers/WorksHeader";
 import Works from "@/components/Works/WorksStyle2";
 import Footer from "@/components/Common/Footer";
+import "@/styles/style.css";
 
 export const metadata = {
   title: "LumarSoft",
 };
 
-export default function Works2Page() {
+export default async function Works2Page() {
+  const dictionary = await import(
+    "@/dictionary/portfolio/portfolio_es.json"
+  ).then((res) => res.default);
   return (
     <>
       <Loading />
@@ -24,7 +28,7 @@ export default function Works2Page() {
       <WorksHeader />
       <div className="main-content">
         <Works grid={3} filterPosition="center" />
-        <Footer />
+        <Footer language={dictionary.Footer} />
       </div>
     </>
   );

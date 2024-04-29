@@ -5,13 +5,14 @@ import Navbar from "@/components/Common/Navbar";
 import ContactHeader from "@/components/Contact/ContactHeader";
 import ContactForm from "@/components/Contact/ContactForm";
 import Footer from "@/components/Common/Footer";
+import "@/styles/style.css";
 
 export const metadata = {
   title: "LumarSoft",
 };
 
 export default async function ContactPage() {
-  const dictionary = await import(`@/dictionary/home/contact_es.json`).then(
+  const dictionary = await import(`@/dictionary/contact/contact_es.json`).then(
     (res) => res.default
   );
   return (
