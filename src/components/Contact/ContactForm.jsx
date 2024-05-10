@@ -1,6 +1,7 @@
 import React from "react";
 
 function ContactForm({ theme, language }) {
+function ContactForm({ theme, language }) {
   return (
     <section className="contact section-padding">
       <div className="container">
@@ -63,3 +64,5 @@ function ContactForm({ theme, language }) {
 }
 
 export default ContactForm;
+
+

@@ -27,21 +27,16 @@
     "Projects": [
       {
         "title": "Ecommerce",
-        "subtitle": "Ecommerce Fornax",
+        "subtitle": "Equipo Ecommerce Fornax",
         "link": "https://www.fornax.com.ar/",
-        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
+        "image": "/img/FornaxLumarSoft.png"
       },
-      {
-        "title": "Web",
-        "subtitle": "Web LumarSoft",
-        "link": "https://www.lumarsoft.com/",
-        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
-      },
+
       {
         "title": "Chatbot",
         "subtitle": "Chatbot John Pellegrini",
         "link": "https://www.lumarsoft.com/",
-        "image": "https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg"
+        "image": "/img/AutoChat.png"
       }
     ]
   },

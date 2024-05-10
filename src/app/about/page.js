@@ -4,7 +4,7 @@ import Navbar from "@/components/Common/Navbar";
 import PagesHeader from "@/components/Headers/PagesHeader";
 import AboutIntro from "@/components/AboutUs/AboutIntro";
 import Services from "@/components/Services/Services1";
-import TestimonialsWithVideo from "@/components/Testimonials/TestimonialsWithVideo";
+import Testimonials from "@/components/Testimonials/Testimonials";
 import SkillsCircle from "@/components/Skills/SkillsCircle";
 import Team from "@/components/Team/Team1";
 import MinimalArea from "@/components/Others/MinimalArea1";
@@ -26,7 +26,7 @@ async function AboutDark() {
       />
       <AboutIntro language={dictionary.AboutIntro} />
       <Services style="4item" language={dictionary.Services} />
-      <TestimonialsWithVideo language={dictionary.TestimonialsWithVideo} />
+      <Testimonials language={dictionary.Testimonials} />
       <SkillsCircle from="aboutPage" />
       <Team language={dictionary.Team} />
       <MinimalArea language={dictionary.AboutUs} />

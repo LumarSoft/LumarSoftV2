@@ -2,7 +2,7 @@
   "ContactHeader": {
     "Title": "Hablemos",
     "Subtitle": "Sobre tu proyecto",
-    "Paragraph": "Estamos listos para llevar tu marca al siguiente nivel."
+    "Paragraph": "Estamos listos para llevar tu negocio al siguiente nivel."
   },
   "Footer": {
     "GetTouch": "Hablemos",
@@ -20,8 +20,15 @@
     }
   },
   "ContactForm": {
-    "h2title": "Pongamonos en contacto",
-    "SendForm": "Enviar mensaje",
-    "ContactInfo": "Información de contacto"
+    "Title": "Pongamosnos en contacto.",
+    "Name": "Nombre",
+    "Email": "Email",
+    "Message": "Mensaje",
+    "Send": "Enviar",
+    "ContactInfo": "Información de contacto",
+    "LetsTalk": "Hablemos",
+    "EmailContact": "lumarsoftarg@gmail.com",
+    "NumberPhone":"+54 9 341 2776893"
   }
 }
+

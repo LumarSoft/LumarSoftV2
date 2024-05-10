@@ -1,9 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 //= Modules
 import { Swiper, SwiperSlide } from "swiper/react";
 //= Components
-import ModalVideo from "@/components/Common/ModalVideo";
 
 const swiperOptions = {
   loop: true,
@@ -11,37 +10,20 @@ const swiperOptions = {
   slidesPerView: 1,
 };
 
-function TestimonialsWithVideo({ language }) {
-  const [isOpen, setOpen] = useState(false);
-
-  function openVideo(e) {
-    e.preventDefault();
-    setOpen(true);
-  }
-
+function Testimonials({ language }) {
   return (
     <section className="block-sec">
       <div
         className="background bg-img pt-100 pb-0 parallaxie"
-        style={{ backgroundImage: "url('/img/bg-vid.jpg')" }}
+        style={{
+          backgroundImage:
+            "url('https://elearningindustry.com/wp-content/uploads/2022/07/The-Most-Important-But-Overlooked-Features-You-Didnt-Know-You-Wanted-In-An-eLearning-Authorin-Tool-1.jpg')",
+        }}
         data-overlay-dark="5"
       >
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
-              <div className="vid-area">
-                <span className="text">{language.title}</span>
-                <div className="vid-icon cursor-pointer" onClick={openVideo}>
-                  <a className="vid">
-                    <div className="vid-butn">
-                      <span className="icon">
-                        <i className="fas fa-play"></i>
-                      </span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+            <div className="col-lg-6"></div>
             <div className="col-lg-5 offset-lg-1">
               <div className="testim-box">
                 <div className="head-box">
@@ -83,15 +65,8 @@ function TestimonialsWithVideo({ language }) {
           </div>
         </div>
       </div>
-      <ModalVideo
-        channel="vimeo"
-        autoplay
-        isOpen={isOpen}
-        videoId="127203262"
-        onClose={() => setOpen(false)}
-      />
     </section>
   );
 }
 
-export default TestimonialsWithVideo;
+export default Testimonials;
